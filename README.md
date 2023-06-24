@@ -26,11 +26,14 @@ HTML, CSS, JavaScript, GitHub Copilot
 
 ## Screenshots
 
-![photo1](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/a30989ac-ce81-44e6-ae2a-a3962a431315)
+![photo1](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/1e8747ee-9d82-4c2c-9ada-6fd8bd5464b4)
 ![2](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/13ce0aba-8c73-43d8-af87-e56e7cf35844)
 ![3](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/3781bffe-6431-4abc-8877-e76935c80a93)
 ![WhatsApp Image 2023-06-24 at 17 43 25](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/646da535-fad9-4dd7-9760-64865729d9f2)
 ![WhatsApp Image 2023-06-24 at 17 44 41](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/2d26908f-0c14-496d-8d19-4d01de27e7cf)
+![6](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/e6899523-0555-4305-9f2e-154a1d6c7227)
+![5](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/5f935e13-0141-480f-8a17-45a221a7019b)
+![4](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/d752b813-e697-4e2a-a14c-32421d2ca947)
 ![WhatsApp Image 2023-06-24 at 17 45 41](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/2c8c29ee-9eab-4d0f-b02f-16eba84babe3)
 
 ###### Responsive
