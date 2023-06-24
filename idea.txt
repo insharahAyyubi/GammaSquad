@@ -1,0 +1,18 @@
+graph
+pie chart
+
+list of all expenses
+
+upcoming plan payment
+
+balance trend --graph
+
+cash flow
+
+Receipt Upload: Allow users to upload and attach receipts or images of their expense documents for record-keeping and verification purposes.
+
+Multiple Currency Support: If your website caters to an international audience, include support for multiple currencies to accommodate users from different regions.
+
+Mobile Responsiveness: Optimize your website's design and functionality for mobile devices to ensure users can conveniently access and track their expenses on the go.
+
+Search and Filtering: Include search functionality to help users find specific expenses based on keywords, dates, categories, or amounts. Allow users to filter and sort expenses based on different criteria.

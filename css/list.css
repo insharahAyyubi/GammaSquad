@@ -1,0 +1,41 @@
+.list-tile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .list-tile .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-tile .delete {
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .list-tile .avatar i {
+    color: #6c757d;
+  }
+  
+  .list-tile .title {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .list-tile .trailing {
+    margin-left: auto;
+    color: #6c757d;
+  }

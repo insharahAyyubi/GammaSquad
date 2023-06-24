@@ -1,0 +1,26 @@
+.container {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+  }
+  .card {
+    border: 1px dotted #ccc;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .chip {
+    margin-bottom: 10px;
+  }
+  .chip-green {
+    background-color: #81c784; /* Colors.green[300] */
+  }
+  .chip-red {
+    background-color: #e57373; /* Colors.red[300] */
+  }
+  .chip-blue-grey {
+    background-color: #78909c; /* Colors.blueGrey[400] */
+  }
