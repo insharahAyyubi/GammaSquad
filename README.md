@@ -7,6 +7,14 @@ The project aims to facilitate its users to manage their financial expenditures 
 ## Technologies used
 
 HTML, CSS, JavaScript, GitHub Copilot
+
+
+## Features
+
+- Responsive 
+- Cross platform
+
+  
 ## Project Architechture
 
 ![App Screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/94756953/248468316-2d937039-150c-4e8a-a10d-24a315ceaa1f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230624%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230624T112334Z&X-Amz-Expires=300&X-Amz-Signature=3335d5c565185e79c200ced6ee2e1983a17be5cb5adb7784d1ad13a4ea56bc28&X-Amz-SignedHeaders=host&actor_id=94756953&key_id=0&repo_id=656792041)
