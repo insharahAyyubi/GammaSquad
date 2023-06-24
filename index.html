@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpenseBit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/abc.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light outer">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <img src="./Images/logo.png" alt="">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+      <div class="main-container" id="home">
+        <div class="content flex">
+          <div class="header-txt">
+            <h1 class="header-h1">
+              Meet <span>ExpenseBit,</span> your personal money manager
+            </h1>
+            <p>
+              Expensebit is India's first expense manager and shopping assistant
+              application.
+            </p><a href="home.html">
+            <button
+              type="button"
+              class="btn btn-info"
+              data-toggle="modal"
+              data-target="#exampleModalLong"> 
+              Add Category
+            </button></a>
+          </div>
+          <div class="header-image">
+            <img src="Images/mobile.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="works flex">
+            <h1 class="works-h1">HOW IT WORKS</h1>
+            <p class="subheader">
+              ExpenseBit is the best expense tracker app which helps you to
+              track all your spends on a daily, weekly &amp; monthly bases.
+            </p>
+            <div class="steps flex">
+              <div class="step-desc">
+                <div><img src="./Images/1.jpg" height="200px" /></div>
+                <span>01</span>
+                <h4>Set a budget</h4>
+                <hr />
+                <p>
+                  Set your budget for adding expenses so you can check you
+                  expense and track your expense.
+                </p>
+              </div>
+              <div class="step-desc">
+                <div><img src="./Images/2.jpg" height="200px" /></div>
+                <span>02</span>
+                <h4>Add your expenses/income</h4>
+                <hr />
+                <p>
+                  Add your daily expenses with different categories so you can
+                  track it.
+                </p>
+              </div>
+              <div class="step-desc">
+                <div><img src="./Images/3.jpg" height="200px" /></div>
+                <span>03</span>
+                <h4>Get categorised reports</h4>
+                <hr />
+                <p>You can check categorical expenses with graphs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq" id="faq">
+          <h1>FAQ</h1>
+          <div class="layout flex">
+            <div class="accordion">
+              <div class="accordion__question">
+                <p>Can I set a budget with this expense tracker?</p>
+              </div>
+              <div class="accordion__answer">
+                <p> Yes, our expense tracker allows you to set a budget. This helps you stay within your budget and avoid overspending.</p>
+              </div>
+            </div>
+          
+            <div class="accordion">
+              <div class="accordion__question">
+                <p>How is this app a plus over my basic app?</p>
+              </div>
+          
+              <div class="accordion__answer">
+                <p>
+                  You get data analysis through pie-chart and recent history.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion__question">
+                <p>Is this expense tracker free to use?</p>
+              </div>
+          
+              <div class="accordion__answer">
+                <p>
+                  Absoultely! This expense tracker is free to use with all its benefits.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion__question">
+                <p>Can an expense tracker help me save money?</p>
+              </div>
+          
+              <div class="accordion__answer">
+                <p>
+                  Yes, our expense tracker can help you save money by providing insights into your spending habits. By analyzing your expenses, you can identify areas where you can cut back, set savings goals, and track your progress over time.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <footer class="text-center text-white" id="contact">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #3b5998;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #55acee;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #dd4b39;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #0082ca;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #333333;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color:rgba(0, 112, 130, 0.92);">
+            © 2023 Copyright: ExpenseBit
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/2d4e9f7759.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

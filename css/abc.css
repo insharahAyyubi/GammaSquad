@@ -1,7 +1,14 @@
 .container {
+    margin-top: 3rem;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 15px;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .container h1{
+    color: rgb(2, 19, 62);
   }
   .card {
     border: 1px dotted #ccc;
@@ -12,8 +19,14 @@
     align-items: center;
     text-align: center;
   }
+  .card-body p{
+    font-size: 2rem;
+  }
   .chip {
     margin-bottom: 10px;
+  }
+  #myChart {
+   margin: 3rem 0;
   }
   .chip-green {
     background-color: #81c784; /* Colors.green[300] */
@@ -24,3 +37,34 @@
   .chip-blue-grey {
     background-color: #78909c; /* Colors.blueGrey[400] */
   }
+  .open, #submitButton{
+    margin: 2rem 0;
+    padding: 1rem 4rem;
+    background-color:  rgb(12,163,175);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .open:hover{
+    background-color:  rgb(29, 190, 222);
+    box-shadow: -5px 5px 15px rgba(3, 7, 61, 0.292);
+  } 
+ #submitButton, #closeBtn {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  margin-right: 10px;
+  background-color: #6ab86e;
+  color: rgb(2, 19, 62);
+  font-weight: 500;
+ }
+ #submitButton:hover{
+  background-color: #82d287;
+ }
+ #closeBtn {
+  background-color: #c92f27;
+  color: #fff;
+ }
+ #closeBtn:hover{
+  background-color: #e5514a;
+ }
