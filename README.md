@@ -30,6 +30,8 @@ HTML, CSS, JavaScript, GitHub Copilot
 ![2](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/13ce0aba-8c73-43d8-af87-e56e7cf35844)
 ![3](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/3781bffe-6431-4abc-8877-e76935c80a93)
 ![WhatsApp Image 2023-06-24 at 17 43 25](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/646da535-fad9-4dd7-9760-64865729d9f2)
+![WhatsApp Image 2023-06-24 at 17 44 41](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/2d26908f-0c14-496d-8d19-4d01de27e7cf)
+![WhatsApp Image 2023-06-24 at 17 45 41](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/2c8c29ee-9eab-4d0f-b02f-16eba84babe3)
 
 ## GitHub usage
 
