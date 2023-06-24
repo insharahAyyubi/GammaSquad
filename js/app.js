@@ -4,7 +4,7 @@ const remaining = document.getElementById('remaining');
 const amount = document.getElementById('amount');
 
 const generateID = () => Math.floor(Math.random() * 10000);
-
+let isEdit = false;
 const localStorageTransactions = JSON.parse(
     localStorage.getItem("transactions")
 );
@@ -125,13 +125,16 @@ switch (transaction.category) {
           <div class="title">${transaction.category}</div>
           <div class="trailing">${transaction.amount}</div>
           <button onclick="deleteTransaction(${transaction.id})" class="delete"><i class="fas fa-trash" style="height" ></i></button>
-          <button class="delete"><i class="fa-regular fa-pen-to-square"></i></button>
-    </div> `;
+          <button class="delete" onclick="edit(${transaction.id})" type="button"  data-toggle="modal" data-target="#categoryModal"><i class="fa-regular fa-pen-to-square"></i></button>
+    </div>`;
     list.appendChild(item);
 }
 
 
-
+const edit = (id) => {
+  transactions = transactions.filter(transaction => transaction.id !== id);
+  isEdit = true;
+}
 
 const deleteTransaction = (id) => {
     transactions = transactions.filter(transaction => transaction.id !== id);
@@ -343,8 +346,11 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Amount:', amount);
         console.log('Note:', note);
         categoryType === 'income' ? categoryType = 1 : categoryType = 0
-
+        if(isEdit ===true){
+          console.log('hello');
+        }else{
         transactions.push({ id: generateID(), type: categoryType, category: category, amount: amount })
+        }
         amountInput.value = '';
         noteInput.value = '';
         categorySelect.value = '';
