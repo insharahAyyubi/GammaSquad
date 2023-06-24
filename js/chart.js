@@ -1,5 +1,4 @@
 const updateChart=()=>{
-  console.log(transactions)
 var xValues=[]
 var yValues=[]
 transactions.forEach((transaction)=>
