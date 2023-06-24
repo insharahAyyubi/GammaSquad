@@ -193,5 +193,5 @@ document.addEventListener('DOMContentLoaded', function() {
 - [@MohdArsalan](https://github.com/simplyarsa)
 - [@NooreAin](https://github.com/ain-py)
 - [@SaniaAhmad](https://www.github.com/saniaahmad6)
-- [@InsharahAyyubi](hhttps://github.com/insharahAyyubi)
+- [@InsharahAyyubi](https://github.com/insharah7)
 
