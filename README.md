@@ -33,6 +33,9 @@ HTML, CSS, JavaScript, GitHub Copilot
 ![WhatsApp Image 2023-06-24 at 17 44 41](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/2d26908f-0c14-496d-8d19-4d01de27e7cf)
 ![WhatsApp Image 2023-06-24 at 17 45 41](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/2c8c29ee-9eab-4d0f-b02f-16eba84babe3)
 
+###### Responsive
+![WhatsApp Image 2023-06-24 at 17 48 10](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/7afa7bf2-9eda-4c93-afd5-eee0f17b97e0)
+
 ## GitHub usage
 
 - This project delves into our experience of utilizing GitHub as a collaborative platform. By recounting specific instances and highlighting key features, this analysis showcases how GitHub facilitated seamless collaboration, enhanced communication, and streamlined project development. Through this exploration, the project aims to illustrate the tangible benefits of GitHub in fostering efficient teamwork and achieving project success.
