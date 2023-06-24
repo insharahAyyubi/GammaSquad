@@ -24,7 +24,12 @@ HTML, CSS, JavaScript, GitHub Copilot
 - If already logged in, the user can view: the account statement, expense structure through pie chart, overview of latest records
 - Add an expense or income entry
 
+## Screenshots
 
+![photo1](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/a30989ac-ce81-44e6-ae2a-a3962a431315)
+![2](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/13ce0aba-8c73-43d8-af87-e56e7cf35844)
+![3](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/3781bffe-6431-4abc-8877-e76935c80a93)
+![WhatsApp Image 2023-06-24 at 17 43 25](https://github.com/AyanChaudhary/CalculatorApp/assets/112795104/646da535-fad9-4dd7-9760-64865729d9f2)
 
 ## GitHub usage
 
