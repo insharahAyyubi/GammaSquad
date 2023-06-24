@@ -90,6 +90,7 @@ h1 span{
     font-size: 1.5rem;
     font-weight: 400;
     color:#fff;
+    margin-top: 1rem;
 }
 .steps h4{
     color:rgb(2, 19, 62);
@@ -175,10 +176,6 @@ footer{
     .step-desc{
         margin-bottom: 4rem;
     }
-    .steps span{
-        margin-top: 1rem;
-    }
-
 }
 
 
