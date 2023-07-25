@@ -1,16 +1,15 @@
 const updateChart=()=>{
-var xValues=[]
-var yValues=[]
-transactions.forEach((transaction)=>
-transaction.type ===0 && xValues.push(transaction.category));
-transactions.forEach((transaction)=>
-transaction.type ===0 && yValues.push(transaction.amount)
+  var xValues=[]
+  var yValues=[]
+  transactions.forEach((transaction)=>
+  transaction.type ===0 && xValues.push(transaction.category));
+  transactions.forEach((transaction)=>
+  transaction.type ===0 && yValues.push(transaction.amount)
 );
 
 console.log(xValues)
 
 // var xValues = ["Trips & Recreation", "Food & Drinks", "Shopping", "Rent", "Transportation", "Vehicle", "Life & Entertainment", "Communication & PC", "Groceries", "Investment", "Others"];
-
 // var yValues = [0, 100,1 ,0 ,200 ,0 ,0 ,0 ,0 ,0];
 
 var barColors = [

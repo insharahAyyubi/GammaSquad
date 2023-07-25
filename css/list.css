@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #e9ecef;
   }
   
   .list-tile .avatar {
@@ -38,4 +37,11 @@
   .list-tile .trailing {
     margin-left: auto;
     color: #6c757d;
+  }
+
+  .note {
+    margin-left: 20px;
+    font-size: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e9ecef;
   }

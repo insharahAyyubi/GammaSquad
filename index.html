@@ -26,7 +26,7 @@
       rel="stylesheet"
       href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="css/abc.css">
+    <link rel="stylesheet" href="css/chart.css">
     <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -182,56 +182,59 @@
           <div class="container p-4 pb-0">
             <!-- Section: Social media -->
             <section class="mb-4">
-              <!-- Facebook -->
+              <!-- Facebook
               <a
                 class="btn text-white btn-floating m-1"
                 style="background-color: #3b5998;"
                 href="#!"
                 role="button"
                 ><i class="fab fa-facebook-f"></i
-              ></a>
+              ></a> -->
         
               <!-- Twitter -->
               <a
                 class="btn text-white btn-floating m-1"
                 style="background-color: #55acee;"
-                href="#!"
+                href="https://twitter.com/InsharahAyyubi"
                 role="button"
+                target="_blank"
                 ><i class="fab fa-twitter"></i
               ></a>
         
-              <!-- Google -->
+              <!-- Google
               <a
                 class="btn text-white btn-floating m-1"
                 style="background-color: #dd4b39;"
                 href="#!"
                 role="button"
                 ><i class="fab fa-google"></i
-              ></a>
+              ></a> -->
         
-              <!-- Instagram -->
+              <!-- Instagram
               <a
                 class="btn text-white btn-floating m-1"
                 style="background-color: #ac2bac;"
                 href="#!"
                 role="button"
                 ><i class="fab fa-instagram"></i
-              ></a>
+              ></a> -->
         
               <!-- Linkedin -->
               <a
                 class="btn text-white btn-floating m-1"
                 style="background-color: #0082ca;"
-                href="#!"
+                href="https://www.linkedin.com/in/insharah-ayyubi"
                 role="button"
+                target="_blank"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
               <!-- Github -->
               <a
                 class="btn text-white btn-floating m-1"
                 style="background-color: #333333;"
-                href="#!"
+                href="https://github.com/insharahAyyubi"
                 role="button"
+                target="_blank"
                 ><i class="fab fa-github"></i
               ></a>
             </section>
@@ -254,6 +257,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="js/home.js"></script>
+    <script>
+      let answers = document.querySelectorAll(".accordion");
+      answers.forEach((event) => {
+        event.addEventListener("click", () => {
+          if (event.classList.contains("active")) {
+            event.classList.remove("active");
+          } else {
+            event.classList.add("active");
+          }
+        });
+      });
+      </script>
   </body>
 </html>
